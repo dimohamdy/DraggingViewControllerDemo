@@ -14,6 +14,8 @@
 		3D3AF0E01B6AC239003662A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AF0DF1B6AC239003662A2 /* Images.xcassets */; };
 		3D3AF0E31B6AC239003662A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3AF0E11B6AC239003662A2 /* LaunchScreen.xib */; };
 		3D3AF0EF1B6AC239003662A2 /* DraggingViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AF0EE1B6AC239003662A2 /* DraggingViewControllerDemoTests.m */; };
+		3D3AF0FC1B6ACB80003662A2 /* BackViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AF0F91B6ACB80003662A2 /* BackViewViewController.m */; };
+		3D3AF0FD1B6ACB80003662A2 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3AF0FB1B6ACB80003662A2 /* FrontViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3D3AF0E81B6AC239003662A2 /* DraggingViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggingViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3AF0ED1B6AC239003662A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3AF0EE1B6AC239003662A2 /* DraggingViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggingViewControllerDemoTests.m; sourceTree = "<group>"; };
+		3D3AF0F81B6ACB80003662A2 /* BackViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewViewController.h; sourceTree = "<group>"; };
+		3D3AF0F91B6ACB80003662A2 /* BackViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewViewController.m; sourceTree = "<group>"; };
+		3D3AF0FA1B6ACB80003662A2 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		3D3AF0FB1B6ACB80003662A2 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				3D3AF0D91B6AC239003662A2 /* ViewController.h */,
 				3D3AF0DA1B6AC239003662A2 /* ViewController.m */,
 				3D3AF0DC1B6AC239003662A2 /* Main.storyboard */,
+				3D3AF0F81B6ACB80003662A2 /* BackViewViewController.h */,
+				3D3AF0F91B6ACB80003662A2 /* BackViewViewController.m */,
+				3D3AF0FA1B6ACB80003662A2 /* FrontViewController.h */,
+				3D3AF0FB1B6ACB80003662A2 /* FrontViewController.m */,
 				3D3AF0DF1B6AC239003662A2 /* Images.xcassets */,
 				3D3AF0E11B6AC239003662A2 /* LaunchScreen.xib */,
 				3D3AF0D21B6AC239003662A2 /* Supporting Files */,
@@ -221,7 +231,9 @@
 			files = (
 				3D3AF0DB1B6AC239003662A2 /* ViewController.m in Sources */,
 				3D3AF0D81B6AC239003662A2 /* AppDelegate.m in Sources */,
+				3D3AF0FC1B6ACB80003662A2 /* BackViewViewController.m in Sources */,
 				3D3AF0D51B6AC239003662A2 /* main.m in Sources */,
+				3D3AF0FD1B6ACB80003662A2 /* FrontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

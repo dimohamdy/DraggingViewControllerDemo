@@ -43,8 +43,7 @@
         // to see if we want to finish dragging it up or down
         CGPoint origin = [gestureRecognizer velocityInView:self.view];
         CGFloat velocity = origin.y;
-        CGFloat vertical;
-        NSTimeInterval duration;
+
         
         // If the y value is negative, we are moving up and so attach the view
         if (velocity < 0) {
